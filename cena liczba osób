@@ -1,0 +1,6 @@
+SELECT 
+    osoby,
+    AVG(cena / DATEDIFF(wyjazd,przyjazd)) AS cena
+FROM zima2019
+GROUP BY osoby
+ORDER BY osoby;
