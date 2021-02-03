@@ -1,0 +1,6 @@
+SELECT 
+    DAYOFWEEK(przyjazd),
+    COUNT(*) 
+    FROM zima2019
+    GROUP BY DAYOFWEEK(przyjazd) 
+    ORDER BY COUNT(*) DESC;
