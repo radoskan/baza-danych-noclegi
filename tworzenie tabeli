@@ -1,5 +1,3 @@
--- Utworzenie tabeli i wczytanie danych 
-
 CREATE DATABASE noclegi;
 
 USE noclegi;
