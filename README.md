@@ -1,6 +1,6 @@
 # Praktyczny projekt wykorzystujący znajomość podstaw MySQL.
 Są to moje pomysły na zapytania do bazy z rezerwacjami hotelowymi.
-Analiza wyników może pomóc np. w ustalaniu polityki cenowej obiektu.
+Analiza wyników pomogła mi przede wszystkim w ustaleniu polityki cenowej.
 Bazę utworzyłem na podstawie raportu rezerwacji z programu hotelowego.
 Raport zawierał tylko podstawowe dane: datę przyjazdu i wyjazdu, liczbę gości i całkowity koszt pobytu.
 Na tej postawie powstały statystyki:
