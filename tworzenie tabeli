@@ -1,0 +1,24 @@
+-- Utworzenie tabeli i wczytanie danych 
+
+CREATE DATABASE noclegi;
+
+USE noclegi;
+
+CREATE TABLE zima2019 
+
+(
+	id INT,
+    przyjazd DATE,
+    wyjazd DATE,
+    osoby INT,
+    cena DEC(6,2)
+    );
+    
+    
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\zima2019.txt'
+INTO TABLE  zima2019
+CHARACTER SET utf8 
+FIELDS TERMINATED BY ' '
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(id, przyjazd, wyjazd, osoby,cena);
